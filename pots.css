@@ -1,0 +1,230 @@
+/**the star is a reset, the dot renders classes and the hashtag renders ids**/
+/**embedded font, buttons, links**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+.clear {
+  clear: both;
+}
+h1 {
+  font-size: 10rem;
+  font-family: "montserrat";
+  margin-top: 3.5rem;
+  text-shadow: 1px 1px lightgrey;
+}
+h2 {
+  font-size: 6rem;
+  font-family: "montserrat";
+  margin-top: 4rem;
+}
+h5 {
+  font-size: 2.5rem;
+  font-family: "muli", sans-serif;
+}
+a {
+  font-family: "muli", sans-serif;
+  font-size: 1.8rem;
+  color: darkgrey;
+  text-decoration: none;
+}
+button {
+  font-size: 1.6rem;
+  font-family: "muli", sans-serif;
+  padding: 1.6rem;
+  border-radius: 7rem;
+  margin-top: 4rem;
+  background-color: #579a62;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.hero-button {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  font-family: "muli", sans-serif;
+  padding: 1.6rem;
+  border-radius: 7rem;
+  margin-top: 8rem;
+  background-color: rgb(255, 250, 232);
+  border-style: none;
+  color: #579a62;
+  cursor: pointer;
+  position: relative;
+}
+/**HOME SECTION**/
+.main-content {
+  background-color: rgb(255, 250, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-content img {
+  height: 50rem;
+  width: 50rem;
+  margin: 40px;
+  border-radius: 2rem;
+}
+.nav-font {
+  font-family: "muli", sans-serif;
+  font-size: 1.8rem;
+}
+.arrow {
+  color: rgb(255, 250, 232);
+  font-size: 8rem;
+  margin-top: 2rem;
+  transform: scale(1, 0.5);
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  position: relative;
+  bottom: 0.15em;
+}
+nav {
+  background-color: rgb(255, 250, 232);
+  padding: 1rem;
+  justify-content: flex-end;
+}
+nav img {
+  float: left;
+}
+nav ul {
+  float: right;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+nav li {
+  float: left;
+  list-style: none;
+  margin: 1rem 1rem;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+nav li:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  background-image: url("ppotgallery/kaufmann-mercantile-a7Woj8W6J0s-unsplash.jpg");
+  height: 75rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  padding-top: 10rem;
+  color: white;
+}
+/**SHOP SECTION**/
+.shop-page {
+  background-color: rgb(255, 250, 232);
+}
+.item-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+}
+.img-box {
+  height: 30rem;
+  width: 30rem;
+  margin: 60px;
+  border-radius: 3mm;
+  transition: transform 1s;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2mm;
+}
+.img-box img:hover {
+  transform: rotate(10deg);
+}
+.detail {
+  font-family: "muli", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.cart {
+  font-size: 1.5rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+.cart:hover {
+  background-color: black;
+  color: white;
+}
+/**GALLERY SECTION**/
+.gallery-page {
+  background-color: rgb(255, 250, 232);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-top: 2rem;
+}
+.gallery img {
+  width: 100%;
+}
+/** ABOUT SECTION **/
+.about-page {
+  background-color: rgb(255, 250, 232);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.purpose {
+  display: block;
+  font-family: "muli", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: darkgray;
+  width: 100%;
+  padding: 5rem;
+}
+.purpose img {
+  height: 40rem;
+  width: 40rem;
+  border-radius: 4mm;
+  margin-top: 4rem;
+}
+
+/** CONTACT SECTION **/
+.contact-page {
+  background-color: rgb(255, 250, 232);
+}
+.form-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+.form-font {
+  font-family: "muli", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+form label,
+form input,
+form textarea {
+  display: block;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+}
